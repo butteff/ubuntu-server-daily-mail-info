@@ -22,31 +22,31 @@ Script is easy and you can configure it, like you want or add something else.
 
 Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme-ezhednevno-na-pochtu-v-ubuntu-server.html">is here</a> 
 
+<ul>
+<li>You might install this software:
 
-0. You might install this software:
+<code>sudo apt-get install clamav postfix mailutils sensors hddtemp</code></li>
 
-<code>sudo apt-get install clamav postfix mailutils sensors hddtemp</code>
+<li>Starting clamav
 
-1. Starting clamav
+<code>sudo /etc/init.d/clamav-freshclam start</code></li>
 
-<code>sudo /etc/init.d/clamav-freshclam start</code>
+<li>Configure your postfix:
 
-2. configure your postfix:
+<code>dpkg-reconfigure postfix</code></li>
 
-<code>dpkg-reconfigure postfix</code>
+<li>Find your sensors
 
-3. Find your sensors
+<code>sensors-detect</code></li>
 
-<code>sensors-detect</code>
+<li>Don't forget to <strong>change your paths and mail into dailymail.sh</strong> script and give them executable rights
 
-4. Don't forget to <strong>change your paths and mail into dailymail.sh</strong> script and give them executable rights
-
-<code>chmod +x dailymail.sh</code>
+<code>chmod +x dailymail.sh</code></li>
 
 
-5. For daily info you might create crontab entry ( sudo crontab -e ), for example, every day at 5 AM:
+<li>For daily info you might create crontab entry ( sudo crontab -e ), for example, every day at 5 AM:
 
-<code>00 5 * * * ./dailymail.sh</code>
+<code>00 5 * * * ./dailymail.sh</code></li>
 
 <h2>Thank you!</h2>
 Thank you for using my script.<br/>
