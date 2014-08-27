@@ -29,21 +29,24 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 
 2. Starting clamav
 
-sudo /etc/init.d/clamav-freshclam start
+<code>sudo /etc/init.d/clamav-freshclam start</code>
 
 3. configure your postfix:
 
-dpkg-reconfigure postfix
+<code>dpkg-reconfigure postfix</code>
 
 4. Find your sensors
 
-sensors-detect
+<code>sensors-detect</code>
 
+5. Don't forget to change your paths and mail into dailymail.sh script and give them executable rights
+
+<code>chmod +x dailymail.sh</code>
 
 
 For daily info you might create crontab entry ( sudo crontab -e ), for example, every day at 5 AM:
 
-00 5 * * * ./dailymail.sh
+<code>00 5 * * * ./dailymail.sh</code>
 
 
 
