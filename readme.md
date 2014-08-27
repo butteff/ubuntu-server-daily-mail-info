@@ -1,8 +1,8 @@
 <h2>Daily monitoring server information to your e-mail.</h2>
 
-script made by butteff from <a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a> comapnys and helps you take every day e-mail about your server.
-
+script made by butteff from and helps you take every day e-mail about your server.
 sorry for my bad english ;)
+
 
 <h2>What script can do:</h2>
 
@@ -49,5 +49,6 @@ For daily info you might create crontab entry ( sudo crontab -e ), for example, 
 <code>00 5 * * * ./dailymail.sh</code>
 
 
-
+Thank you for using my script. Also I offer some services, may be this my projects will be interesting for you:
+<a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a>
 
