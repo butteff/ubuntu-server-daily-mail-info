@@ -16,7 +16,7 @@ You can see:
 
 Script is easy and you can configure it, like you want or add something else.
 
-INSTALLATION:
+<h1>INSTALLATION</h1>:
 
 1. You might install this software:
 
