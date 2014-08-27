@@ -1,6 +1,6 @@
 <h2>Daily monitoring server information to your e-mail.</h2>
 
-script made by butteff from and helps you take every day e-mail about your server.
+script helps you take every day e-mail about your server.
 sorry for my bad english ;)
 
 
@@ -50,6 +50,6 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 
 <h2>Thank you!</h2>
 Thank you for using my script.<br/>
-Also I offer some services, may be this my projects will be interesting for you:
+Also I offer some services, may be this my projects will be interesting for you:<br/>
 <a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a>
 
