@@ -39,7 +39,7 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 
 <code>sensors-detect</code>
 
-5. Don't forget to change your paths and mail into dailymail.sh script and give them executable rights
+5. Don't forget to <strong>change your paths and mail into dailymail.sh</strong> script and give them executable rights
 
 <code>chmod +x dailymail.sh</code>
 
