@@ -1,10 +1,12 @@
-Daily monitoring server information to your e-mail.
+<h2>Daily monitoring server information to your e-mail.</h2>
 
-script made by butteff from http://adminicana.ru/en.html and http://webvir.ru comapnys and helps you take every day e-mail about your server.
-russian instruction is here: http://linuxstar.ru/poluchenie-informacii-o-sisteme-ezhednevno-na-pochtu-v-ubuntu-server.html
+script made by butteff from <a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a> comapnys and helps you take every day e-mail about your server.
+
 sorry for my bad english ;)
 
-You can see:
+<h2>What script can do:</h2>
+
+With this script you can see in your mail:
 
 0. Your clamav antivirus information 
 1. Which ports are open
@@ -16,11 +18,14 @@ You can see:
 
 Script is easy and you can configure it, like you want or add something else.
 
-<h1>INSTALLATION</h1>:
+<h2>INSTALLATION:</h2>
+
+Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme-ezhednevno-na-pochtu-v-ubuntu-server.html">is here</a> 
+
 
 1. You might install this software:
 
-sudo apt-get install clamav postfix mailutils sensors hddtemp
+<code>sudo apt-get install clamav postfix mailutils sensors hddtemp</code>
 
 2. Starting clamav
 
