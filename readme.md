@@ -48,7 +48,7 @@ For daily info you might create crontab entry ( sudo crontab -e ), for example, 
 
 <code>00 5 * * * ./dailymail.sh</code>
 
-
+<h2>Thank you!</h2>
 Thank you for using my script.<br/>
 Also I offer some services, may be this my projects will be interesting for you:
 <a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a>
