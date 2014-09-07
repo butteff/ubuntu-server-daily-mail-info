@@ -15,6 +15,7 @@ With this script you can see in your mail:
 4. Canonical hello information about your processes, memory, hdd usage, how many users login in right now and other, that you can see on your login.
 5. Backup log (if you do it from script to backup.log)
 6. Any mounted hdd size.
+7. Differents in your packages, new packages in system
 
 Script is easy and you can configure it, like you want or add something else.
 
@@ -38,6 +39,10 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 <li>Find your sensors
 
 <code>sensors-detect</code></li>
+
+<li>Create list of your packages (do it in script directory):
+
+<code>dpkg --get-selections > packages</code></li>
 
 <li>Don't forget to <strong>change your paths and mail into dailymail.sh</strong> script and give them executable rights
 
