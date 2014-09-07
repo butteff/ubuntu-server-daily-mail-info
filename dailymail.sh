@@ -31,6 +31,13 @@ cat /backup.log >> /scr/mail
 printf "\n\any hdd size:\n\n" >> /scr/mail
 df /dev/sda >> /scr/mail
 
+#new packages in your system:
+printf "newpackages:\n\n" >> /scr/mail
+dpkg --get-selections > packages2
+diff packages packages2 >> /scr/mail
+rm -rf packages
+mv packages2 packages
+
 #mail send:
 mail -s "server daily info" yourmail@gmail.com < /scr/mail
 
