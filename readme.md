@@ -54,7 +54,7 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 <code>00 5 * * * ./dailymail.sh</code></li>
 
 <h2>Thank you!</h2>
-Thank you for using my script.<br/><br/>
+Thank you for using my script.<br/>
 Also I offer some services, may be this my projects will be interesting for you:<br/>
 <a href="http://adminicana.ru/en.html" target="_blank">adminicana</a> - remote linux administration services<br/>
 <a href="http://webica.org" target="_blank">webica</a> - web development & IT outsourcing<br/>
