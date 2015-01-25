@@ -56,5 +56,7 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 <h2>Thank you!</h2>
 Thank you for using my script.<br/>
 Also I offer some services, may be this my projects will be interesting for you:<br/>
-<a href="http://adminicana.ru/en.html">adminicana</a> and <a href="http://webvir.ru">webvir</a>
+<a href="http://adminicana.ru/en.html" target="_blank">adminicana</a> - remote linux administration services
+<a href="http://webica.org" target="_blank">webica</a> - web development & IT outsourcing
+<a href="http://webvir.ru" target="_blank">webvir</a> - website's viruses removing
 
