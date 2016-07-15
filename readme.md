@@ -1,6 +1,6 @@
 <h2>Daily monitoring server information to your e-mail.</h2>
 
-script helps you take every day e-mail about your server.
+script helps you to take every day e-mail about your server.
 sorry for my bad english ;)
 
 
@@ -17,14 +17,13 @@ With this script you can see in your mail:
 6. Any mounted hdd size.
 7. Differents in your packages, new packages in system
 
-Script is easy and you can configure it, like you want or add something else.
+Script is easy and you can configure it like you want or add something else.
 
 <h2>INSTALLATION:</h2>
 
-Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme-ezhednevno-na-pochtu-v-ubuntu-server.html">is here</a> 
 
 <ul>
-<li>You might install this software:
+<li>You should to install this software:
 
 <code>sudo apt-get install clamav postfix mailutils sensors hddtemp</code></li>
 
@@ -44,7 +43,7 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 
 <code>dpkg --get-selections > packages</code></li>
 
-<li>Don't forget to <strong>change your paths and mail into dailymail.sh</strong> script and give them executable rights
+<li>Don't forget to <strong>change your paths and mail in dailymail.sh</strong> script and give to them executable rights
 
 <code>chmod +x dailymail.sh</code></li>
 
@@ -53,10 +52,5 @@ Russian instruction <a href="http://linuxstar.ru/poluchenie-informacii-o-sisteme
 
 <code>00 5 * * * ./dailymail.sh</code></li>
 
-<h2>Thank you!</h2>
-Thank you for using my script.<br/>
-Also I offer some services, may be this my projects will be interesting for you:<br/>
-<a href="http://adminicana.ru/en.html" target="_blank">adminicana</a> - remote linux administration services<br/>
-<a href="http://webica.org" target="_blank">webica</a> - web development & IT outsourcing<br/>
-<a href="http://webvir.ru" target="_blank">webvir</a> - website's viruses removing<br/>
+
 
