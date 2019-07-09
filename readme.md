@@ -1,8 +1,6 @@
 <h2>Daily monitoring server information to your e-mail.</h2>
 
-script helps you to take every day e-mail about your server.
-sorry for my bad english ;)
-
+script helps you to take an every day e-mail about your server.
 
 <h2>What script can do:</h2>
 
@@ -10,24 +8,23 @@ With this script you can see in your mail:
 
 0. Your clamav antivirus information 
 1. Which ports are open
-2. How many users in your system
+2. How many users do you have in your system
 3. What hardware temperature is on your server right now.
-4. Canonical hello information about your processes, memory, hdd usage, how many users login in right now and other, that you can see on your login.
-5. Backup log (if you do it from script to backup.log)
+4. Canonical hello information about your processes, memory, hdd usage, how many users are "logged in" right now (and other info, that you can see on your login screen).
+5. Backup log (if you do it from a script to backup.log)
 6. Any mounted hdd size.
-7. Differents in your packages, new packages in system
+7. Differents in your packages, new packages in the system
 
 Script is easy and you can configure it like you want or add something else.
 
 <h2>INSTALLATION:</h2>
 
-
 <ul>
-<li>You should to install this software:
+<li>Install this software:
 
 <code>sudo apt-get install clamav postfix mailutils sensors hddtemp</code></li>
 
-<li>Starting clamav
+<li>Start the Clamav antivirus
 
 <code>sudo /etc/init.d/clamav-freshclam start</code></li>
 
@@ -39,16 +36,16 @@ Script is easy and you can configure it like you want or add something else.
 
 <code>sensors-detect</code></li>
 
-<li>Create list of your packages (do it in script directory):
+<li>Create a list of your packages (do it in the script directory):
 
 <code>dpkg --get-selections > packages</code></li>
 
-<li>Don't forget to <strong>change your paths and mail in dailymail.sh</strong> script and give to them executable rights
+<li>Don't forget to <strong>change your paths and mail address in the dailymail.sh</strong> script and give to them executable rights
 
 <code>chmod +x dailymail.sh</code></li>
 
 
-<li>For daily info you might create crontab entry ( sudo crontab -e ), for example, every day at 5 AM:
+<li>For a daily info you might create a crontab entry ( sudo crontab -e ), for example, this rule is for an every day mail at 5 AM:
 
 <code>00 5 * * * ./dailymail.sh</code></li>
 
